@@ -328,6 +328,26 @@
       color: var(--text-sub);
       line-height: 1.4;
     }
+    .exp-logos {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+    }
+    .exp-logo {
+      display: block;
+      max-height: 36px;
+      width: auto;
+      max-width: 130px;
+      object-fit: contain;
+      object-position: left center;
+    }
+    .exp-logo.aloe {
+      background: #F5F0EA;
+      padding: 4px 8px;
+      border-radius: 3px;
+      max-height: 44px;
+    }
     .exp-status {
       display: inline-block;
       margin-top: 0.75rem;
@@ -668,7 +688,10 @@
       <div class="exp-item fade-up">
         <div class="exp-meta">
           <div class="exp-dates">2023 — Present</div>
-          <div class="exp-company">Bakerist &amp;<br/>Bar Aloe, Dubai</div>
+          <div class="exp-logos">
+            <img src="logos/bakerist.png" alt="Bakerist" class="exp-logo" />
+            <img src="logos/aloe.png" alt="Aloe Bar" class="exp-logo aloe" />
+          </div>
           <div class="exp-status">Current</div>
         </div>
         <div class="exp-body">
@@ -691,7 +714,9 @@
       <div class="exp-item fade-up">
         <div class="exp-meta">
           <div class="exp-dates">2019 — 2023</div>
-          <div class="exp-company">Saya Brasserie,<br/>Dubai</div>
+          <div class="exp-logos">
+            <img src="logos/saya.png" alt="Saya Brasserie" class="exp-logo" />
+          </div>
         </div>
         <div class="exp-body">
           <div class="exp-role">General Manager</div>
@@ -713,7 +738,9 @@
       <div class="exp-item fade-up">
         <div class="exp-meta">
           <div class="exp-dates">2016 — 2019</div>
-          <div class="exp-company">L'ETO &amp; Early<br/>Career</div>
+          <div class="exp-logos">
+            <img src="logos/leto.png" alt="L'ETO" class="exp-logo" />
+          </div>
         </div>
         <div class="exp-body">
           <div class="exp-role">Brand Manager &amp; Supervisor</div>
